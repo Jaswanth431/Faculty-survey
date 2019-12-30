@@ -1,0 +1,9 @@
+[26-Dec-2019 07:52:14 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/x36jcq2f1oc5/public_html/faculty_survey/includes/db.php on line 2
+[26-Dec-2019 07:52:14 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/x36jcq2f1oc5/public_html/faculty_survey/includes/login-inc.php on line 9
+[26-Dec-2019 07:52:14 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/x36jcq2f1oc5/public_html/faculty_survey/includes/login-inc.php on line 11
+[26-Dec-2019 07:52:20 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/x36jcq2f1oc5/public_html/faculty_survey/includes/db.php on line 2
+[26-Dec-2019 07:52:20 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/x36jcq2f1oc5/public_html/faculty_survey/includes/login-inc.php on line 9
+[26-Dec-2019 07:52:20 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/x36jcq2f1oc5/public_html/faculty_survey/includes/login-inc.php on line 11
+[26-Dec-2019 07:52:21 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/x36jcq2f1oc5/public_html/faculty_survey/includes/db.php on line 2
+[26-Dec-2019 07:52:21 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/x36jcq2f1oc5/public_html/faculty_survey/includes/login-inc.php on line 9
+[26-Dec-2019 07:52:21 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/x36jcq2f1oc5/public_html/faculty_survey/includes/login-inc.php on line 11

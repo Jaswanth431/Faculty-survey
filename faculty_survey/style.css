@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap");
+
+*,
+*::after,
+a::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: lato;
+    font-size: 62.5%;
+}
+/************** styles for header.php*****************/
+#header {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 2px solid maroon;
+}
+
+.img-box {
+    height: 15rem;
+    margin-right: 3rem;
+}
+
+.img-box img {
+    height: 100%;
+}
+
+.text-box {
+    margin: auto auto auto 0;
+    text-align: center;
+}
+
+.primary-heading {
+    margin-bottom: 1.5rem;
+}
+/************* styles for index.php ***************/
+
+.sub-heading {
+    font-size: 3rem;
+    font-style: italic;
+    margin-top: 1.5rem;
+}
+
+.form-login {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border: 2px solid #ddd;
+    padding: 3rem 1.5rem;
+    border-radius: 5px;
+}
+
+.form-login label {
+    font-size: 1.5rem;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 4rem;
+    padding: 0 1rem 0;
+    font-size: 1.4rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.5rem;
+}
+
+.button-login,
+.button-login:focus {
+    display: block;
+    width: 100%;
+    color: #fff !important;
+    font-size: 1.5rem !important;
+    height: 4rem !important;
+    outline: none !important;
+    border-radius: 0.5rem;
+}
+
+.form-element:not(:first-child) {
+    margin-top: 2rem !important;
+}
+
+#error-box {
+    display: none;
+    font-size: 1.3rem !important;
+}
+
+/************** styles for survey.php *********/
+.main {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.element-box {
+    display: inline-block;
+}
+
+.element-box:not(:first-child) {
+    margin-left: 2rem;
+}
+
+.select-info {
+    display: inline-block !important;
+    width: 200px;
+}
+
+.element-box label {
+    font-size: 1.4rem;
+}
+
+#get-survey-btn,
+#logout {
+    width: 15rem;
+    border: none;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+    transition: all 300ms;
+    color: #fff;
+    font-size: 1.5rem;
+    height: 4rem;
+    outline: none;
+    border-radius: 0.5rem;
+    display: block;
+}
+
+#get-survey-btn:active {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    width: 15rem;
+    border: none;
+}
+
+#logout {
+    width: 100%;
+    padding: 1rem 2rem;
+    transition: all 300ms;
+    display: block;
+}
+
+#logout:active {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+#survey-error-box {
+    display: none;
+    font-size: 1.3rem !important;
+    width: 500px !important;
+    margin: 2rem auto 0;
+}
+
+#survey_form {
+    width: 70%;
+    margin: 3rem auto 0;
+}
+.survey-question-box:not(:first-child) {
+    margin-top: 2rem;
+}
+
+option {
+    font-size: 1.5rem;
+}
+
+.comment-box {
+    height: 10rem !important;
+    font-size: 1.5rem;
+}
+
+#submit_survey {
+    width: 25rem;
+    border: none;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+    transition: all 400ms;
+    color: #fff;
+    font-size: 1.5rem;
+    height: 4rem;
+    outline: none;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    display: none;
+}
+
+#submit_survey:active {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
